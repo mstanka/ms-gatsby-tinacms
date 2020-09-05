@@ -1,6 +1,6 @@
 import React from "react"
 import { Wrapper } from "./style"
-import { Coffee } from "styled-icons/boxicons-regular"
+import { Laptop } from "styled-icons/fa-solid"
 import styled, { css } from "styled-components"
 import { transparentize } from "polished"
 import { Nav } from "./nav"
@@ -15,7 +15,7 @@ export const Header = styled(({ siteTitle, ...styleProps }) => {
           <HeaderWrapper>
             <SiteTitle>
               <SiteLink to="/">
-                <Coffee />
+                <Laptop />
                 {siteTitle}
               </SiteLink>
             </SiteTitle>
@@ -29,30 +29,30 @@ export const Header = styled(({ siteTitle, ...styleProps }) => {
   position: absolute;
   z-index: 100;
   width: 100%;
-  height: ${props => props.theme.header.height};
+  height: ${(props) => props.theme.header.height};
   top: 0;
-  background-color: ${props => props.theme.color.background};
-  color: ${props => props.theme.color.foreground};
+  background-color: ${(props) => props.theme.color.background};
+  color: ${(props) => props.theme.color.foreground};
 
-  ${props =>
+  ${(props) =>
     props.theme.header.overline &&
     css`
-      border-top: 6px solid ${props => props.theme.color.primary};
+      border-top: 6px solid ${(props) => props.theme.color.primary};
     `};
 
-  ${props =>
+  ${(props) =>
     props.theme.header.underline &&
     css`
-      box-shadow: inset 0 -1px 0 ${props => transparentize(0.9, props.theme.color.white)},
-        0 1px 0 ${props => transparentize(0.9, props.theme.color.black)};
+      box-shadow: inset 0 -1px 0 ${(props) => transparentize(0.9, props.theme.color.white)},
+        0 1px 0 ${(props) => transparentize(0.9, props.theme.color.black)};
     `};
 
-  ${props =>
+  ${(props) =>
     props.theme.header.transparent &&
     css`
-      background-color: ${props =>
+      background-color: ${(props) =>
         transparentize(0.9, props.theme.color.black)};
-      color: ${props => props.theme.color.white};
+      color: ${(props) => props.theme.color.white};
     `};
 `
 
@@ -65,7 +65,7 @@ export const SiteLink = styled(Link)`
   color: inherit !important;
   text-decoration: none;
   margin: 0;
-  transition: all 150ms ${p => p.theme.easing};
+  transition: all 150ms ${(p) => p.theme.easing};
   z-index: 1;
   svg {
     width: 1.5rem;
@@ -81,9 +81,9 @@ export const SiteLink = styled(Link)`
     left: -1rem;
     width: calc(100% + 2rem);
     height: 100%;
-    background-color: ${props => props.theme.color.primary};
+    background-color: ${(props) => props.theme.color.primary};
     opacity: 0;
-    transition: all 150ms ${p => p.theme.easing};
+    transition: all 150ms ${(p) => p.theme.easing};
     z-index: -1;
   }
 
