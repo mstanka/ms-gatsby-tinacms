@@ -5,7 +5,9 @@ date: '2019-04-04'
 type: post
 authors:
   - scott-byrne
-draft: true
+draft: false
+hero:
+  image: ../images/undraw_proud_coder_7ain.png
 ---
 
 ## Arma dent suarum
