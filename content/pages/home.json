@@ -7,8 +7,8 @@
     }
   ],
   "hero": {
-    "headline": "Welcome here",
-    "textline": "This template is filled with sample content to get you started.",
+    "headline": "Welcome :)",
+    "textline": "This is my new site using Gatsby and TinaCMS.",
     "ctas": [
       {
         "label": "Read The Blog",
