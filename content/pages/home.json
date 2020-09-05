@@ -7,7 +7,7 @@
     }
   ],
   "hero": {
-    "headline": "Welcome to Tina Grande.",
+    "headline": "Welcome here",
     "textline": "This template is filled with sample content to get you started.",
     "ctas": [
       {
@@ -23,7 +23,7 @@
         "primary": false
       }
     ],
-    "image": "../images/undraw_videographer_nnc7.png",
+    "image": "../images/undraw_web_development_w2vv.png",
     "large": true
   },
   "displayTitle": false,
