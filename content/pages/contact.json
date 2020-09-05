@@ -34,5 +34,8 @@
       "content": ""
     }
   ],
-  "displayTitle": true
+  "displayTitle": true,
+  "hero": {
+    "image": "../images/undraw_proud_coder_7ain.png"
+  }
 }
