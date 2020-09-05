@@ -8,7 +8,7 @@
   ],
   "hero": {
     "headline": "Welcome :)",
-    "textline": "This is my new site using Gatsby and TinaCMS.",
+    "textline": "This is my new project using Gatsby and TinaCMS.",
     "ctas": [
       {
         "label": "Read The Blog",
